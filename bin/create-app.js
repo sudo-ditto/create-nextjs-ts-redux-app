@@ -30,7 +30,7 @@ if (process.argv.length < 3) {
 const ownPath = process.cwd();
 const folderName = process.argv[2];
 const appPath = path.join(ownPath, folderName);
-const repo = 'https://github.com/lucky-lore/nextjs-ts-redux-sass-rtl-jest-boilerplate';
+const repo = 'https://github.com/sudo-ditto/nextjs-ts-redux-sass-rtl-jest-boilerplate';
 
 try {
   fs.mkdirSync(appPath);
